@@ -1,0 +1,49 @@
+* {
+    font-family: IBM Plex Mono, FontAwesome;
+    font-size: 11px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#backlight, #battery, #clock, #network, #pulseaudio {
+    background-color: rgba(80, 80, 80, 0.5);
+    padding: 0 6px;
+    border-style: solid;
+}
+
+#backlight, #network, #pulseaudio {
+    border-width: 0px 0.2px;
+}
+
+#battery {
+    border-width: 0px 0.2px 0px 0px;
+}
+
+#clock {
+    border-width: 0px 0px 0px 0.2px;
+}
+
+#taskbar {
+    margin: 0px 5px;
+}
+
+#taskbar button {
+    font-weight: 400;
+    background-color: rgba(40, 40, 40, 0.5);
+    padding: 0px 4px;
+    border-radius: 0px;
+}
+
+#taskbar button.active {
+    font-family: IBM Plex Mono;
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+#network.disconnected {
+    color: rgba(196, 0, 0, 1);
+}

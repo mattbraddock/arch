@@ -1,0 +1,4 @@
+swaybg -i ~/Pictures/wallpaper.jpg &
+waybar >/dev/null 2>&1 &
+conky &
+wl-paste --watch cliphist store &
