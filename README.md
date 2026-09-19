@@ -248,6 +248,7 @@ For vesktop, open `/usr/share/applications/vesktop.desktop` and change the follo
 For emulation
 ```bash
 sudo yay -S azahar-appimage-wayland \
+            cemu \
             dolphin-emu \
             fceux \
             m64py \
