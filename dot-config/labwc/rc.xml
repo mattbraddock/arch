@@ -144,10 +144,14 @@
             <action name="Execute" command="rofi -show calc -modi calc -no-show-match -no-sort -no-history -lines 0" />
         </keybind>
         <keybind key="Print">
-            <action name="Execute" command='grim -g "$(slurp)" - | wl-copy' />
+            <action name="Execute">
+                <command>sh -c 'grim -g "$(slurp)" - | wl-copy'</command>
+            </action>
         </keybind>
         <keybind key="S-Print">
-            <action name="Execute" command='grim -g "$(slurp)" $(xdg-user-dir PICTURES)/Screenshots/$(date + "%s_grim.png")' />
+            <action name="Execute">
+                <command>sh -c 'grim -g "$(slurp)" /home/matt/Pictures/Screenshots/$(date +"%s_grim.png")'</command>
+            </action>
         </keybind>
         <keybind key="XF86AudioMute">
             <action name="Execute" command="pamixer -t" />
