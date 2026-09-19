@@ -201,46 +201,43 @@ Press `CTRL+D` twice to return to installation medium, and use `reboot` to resta
 
 After logging in, install other programs
 ```bash
-sudo pacman -Sy discord \
-                f3d \
-                filezilla \
-                font-manager \
-                gimp \
-                gparted \
-                guvcview-qt \
-                kicad \
-                kicad-library \
-                kicad-library-3d \
-                libreoffice-fresh \
-                mixxx \
-                obs-studio \
-                obsidian \
-                pandoc \
-                rpi-imager \
-                steam \
-                strawberry \
-                syncthing \
-                texlive-basic \
-                texlive-binextra \
-                texlive-fontsextra \
-                texlive-fontsrecommended \
-                texlive-latexextra \
-                texlive-latexrecommended \
-                texlive-mathscience \
-                xournalpp
-```
-
-```bash
 sudo yay -S bambustudio-appimage \
             chitubox-free-bin \
+            discord \
             diylc \
+            f3d \
+            filezilla \
+            font-manager \
+            gimp \
+            gparted \
+            guvcview-qt \
             gwenview-no-purpose \
+            kicad \
+            kicad-library \
+            kicad-library-3d \
+            libreoffice-fresh \
+            mixxx \
             neofetch \
             numworks-epsilon \
+            obs-studio \
+            obsidian \
             okular-no-purpose \
             openscad-snapshot-appimage \
+            pandoc \
             rofi-power-menu \
+            rpi-imager \
+            steam \
+            strawberry \
+            syncthing \
+            texlive-basic \
+            texlive-binextra \
+            texlive-fontsextra \
+            texlive-fontsrecommended \
+            texlive-latexextra \
+            texlive-latexrecommended \
+            texlive-mathscience \
             ticemu \
+            xournalpp \
             zoom
 ```
 
