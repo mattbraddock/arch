@@ -160,7 +160,7 @@ pacman -S 7zip bzip3 dosfstools file-roller nfs-utils ntfs-3g unrar unzip zip
 
 Developing
 ```bash
-pacman -S lite-xl nodejs npm
+pacman -S nodejs npm
 ```
 
 Install fonts and language
@@ -170,12 +170,12 @@ pacman -S hunspll hunspell-en_us ttf-ibm-plex ttf-nerd-fonts-symbols woff2-font-
 
 Plugins
 ```bash
-pacman -S cups-filters cups-pdf lite-xl-plugin-manager rofi-calc thunar-archive-plugin thunar-shares-plugin thunar-volman vlc-plugins-extra
+pacman -S cups-filters cups-pdf rofi-calc thunar-archive-plugin thunar-shares-plugin thunar-volman vlc-plugins-extra
 ```
 
 Miscellaneous
 ```bash
-pacman -S adw-gtk-theme gsimplecal wacomtablet
+pacman -S adw-gtk-theme gsimplecal ghostscript wacomtablet
 ```
 
 Set up user and install AUR helper
@@ -215,6 +215,8 @@ sudo yay -S bambustudio-appimage \
             kicad-library \
             kicad-library-3d \
             libreoffice-fresh \
+            lite-xl \
+            lite-xl-plugin-manager \
             mixxx \
             neofetch \
             numworks-epsilon \
