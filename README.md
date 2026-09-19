@@ -203,7 +203,6 @@ After logging in, install other programs
 ```bash
 sudo yay -S bambustudio-appimage \
             chitubox-free-bin \
-            discord \
             diylc \
             f3d \
             filezilla \
@@ -237,9 +236,12 @@ sudo yay -S bambustudio-appimage \
             texlive-latexrecommended \
             texlive-mathscience \
             ticemu \
+            vesktop-bin \
             xournalpp \
             zoom
 ```
+
+For vesktop, open `/usr/share/applications/vesktop.desktop` and change the following line: `Exec=/usr/bin/vesktop --ozone-platform-hint=auto %U`
 
 For emulation
 ```bash
