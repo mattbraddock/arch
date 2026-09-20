@@ -11,14 +11,15 @@ Ensure it is not mounted with `lsblk`
 
 Copy to the flash drive
 ```bash
-sudo dd bs=4M if=PATH/TO/archlinux-version-x86_64.iso of=/dev/disk/by-id/usb-FLASHDRIVENAME conv=fsync oflag=direct status=progress
+sudo pacman -S pv
+sudo pv PATH/TO/archlinux-version-x86_64.iso output=/dev/disk/by-id/usb-FLASHDRIVENAME --sync
 ```
 
 Insert flash drive and boot into install
 
 Verify boot mode if UEFI
 ```bash
-ls /sys/firmware/efi/efivars
+cat /sys/firmware/efi/fw_platform_size
 ```
 
 Check for network connectivity
