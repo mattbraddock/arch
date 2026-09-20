@@ -10,13 +10,13 @@ window#waybar {
     transition-duration: .5s;
 }
 
-#backlight, #battery, #clock, #network, #pulseaudio {
+#backlight, #battery, #clock, #network, #pulseaudio, #pulseaudio-slider {
     background-color: rgba(80, 80, 80, 0.5);
     padding: 0 6px;
     border-style: solid;
 }
 
-#backlight, #network, #pulseaudio {
+#backlight, #network, #pulseaudio, #pulseaudio-slider {
     border-width: 0px 0.2px;
 }
 
@@ -26,6 +26,27 @@ window#waybar {
 
 #clock {
     border-width: 0px 0px 0px 0.2px;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#pulseaudio-slider trough {
+    min-height: 4px;
+    min-width: 75px;
+    border-radius: 5px;
+    background: black;
+}
+#pulseaudio-slider highlight {
+    min-height: 8px;
+    min-width: 10px;
+    border-radius: 5px;
+    background: gray;
 }
 
 #taskbar {
