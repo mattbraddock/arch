@@ -11,7 +11,7 @@ Ensure it is not mounted with `lsblk`
 
 Copy to the flash drive
 ```bash
-dd bs=4M if=PATH/TO/archlinux-version-x86_64.iso of=/dev/disk/by-id/usb-FLASHDRIVENAME conv=fsync oflag=direct status=progress
+sudo dd bs=4M if=PATH/TO/archlinux-version-x86_64.iso of=/dev/disk/by-id/usb-FLASHDRIVENAME conv=fsync oflag=direct status=progress
 ```
 
 Insert flash drive and boot into install
