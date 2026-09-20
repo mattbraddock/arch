@@ -152,7 +152,7 @@ systemctl enable cups.service
 
 Audio/Video
 ```bash
-pacman -S pamixer pavucontrol-qt pulseaudio speech-dispatcher vlc
+pacman -S haruna pamixer pavucontrol-qt pulseaudio speech-dispatcher
 ```
 
 Archiving and file systems
@@ -172,7 +172,7 @@ pacman -S gspell hunspll hunspell-en_us ttf-nerd-fonts-symbols woff2-font-awesom
 
 Plugins
 ```bash
-pacman -S cups-filters cups-pdf rofi-calc thunar-archive-plugin thunar-shares-plugin thunar-volman vlc-plugins-extra
+pacman -S cups-filters cups-pdf rofi-calc thunar-archive-plugin thunar-shares-plugin thunar-volman
 ```
 
 Miscellaneous
