@@ -126,6 +126,7 @@ Edit `/etc/pacman.conf` by uncommenting the two lines for multilib
 Install the display manager
 ```bash
 pacman -Syu && pacman -S sddm-kcm
+# select ttf-ibm-plex
 systemctl enable sddm.service
 ```
 
@@ -166,7 +167,7 @@ pacman -S nodejs npm
 
 Install fonts and language
 ```bash
-pacman -S hunspll hunspell-en_us ttf-ibm-plex ttf-nerd-fonts-symbols woff2-font-awesome
+pacman -S hunspll hunspell-en_us ttf-nerd-fonts-symbols woff2-font-awesome
 ```
 
 Plugins
