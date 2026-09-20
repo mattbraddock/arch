@@ -4,7 +4,7 @@
     "position": "bottom",
     "modules-left": [],
     "modules-center": ["wlr/taskbar"],
-    "modules-right": ["battery", "backlight", "pulseaudio", "network", "clock"],
+    "modules-right": ["battery", "backlight", "pulseaudio", "pulseaudio/slider", "network", "clock"],
     "expand-center": true,
     "fixed-center": false,
     "reload_style_on_change": true,
@@ -41,6 +41,11 @@
             "default": ""
         },
         "on-click": "pavucontrol-qt"
+    },
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
     },
     "wlr/taskbar": {
         "format": "{name}",
