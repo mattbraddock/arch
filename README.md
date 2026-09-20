@@ -167,7 +167,7 @@ pacman -S nodejs npm
 
 Install fonts and language
 ```bash
-pacman -S hunspll hunspell-en_us ttf-nerd-fonts-symbols woff2-font-awesome
+pacman -S gspell hunspll hunspell-en_us ttf-nerd-fonts-symbols woff2-font-awesome
 ```
 
 Plugins
