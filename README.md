@@ -177,7 +177,7 @@ pacman -S cups-filters cups-pdf rofi-calc thunar-archive-plugin thunar-shares-pl
 
 Miscellaneous
 ```bash
-pacman -S adw-gtk-theme gsimplecal ghostscript wacomtablet
+pacman -S adw-gtk-theme gsimplecal wacomtablet
 ```
 
 Set up user and install AUR helper
