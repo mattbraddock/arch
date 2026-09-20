@@ -202,6 +202,7 @@ Press `CTRL+D` twice to return to installation medium, and use `reboot` to resta
 After logging in, install other programs
 ```bash
 sudo yay -S bambustudio-appimage \
+            catfish \
             chitubox-free-bin \
             diylc \
             f3d \
