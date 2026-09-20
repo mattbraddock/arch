@@ -189,8 +189,6 @@ cd .. && rm -rf yay
 xdg-user-dirs-update
 mkdir "${HOME}/.npm-packages"
 npm config set prefix "${HOME}/.npm-packages"
-gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark'
-gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 ```
 
 Edit `.bashrc` with the following
@@ -201,9 +199,11 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 
 Press `CTRL+D` twice to return to installation medium, and use `reboot` to restart the system
 
-After logging in, install other programs
+After logging in, set theme and install other programs
 ```bash
-sudo yay -S bambustudio-appimage \
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark'
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+yay -S bambustudio-appimage \
             catfish \
             chitubox-free-bin \
             diylc \
