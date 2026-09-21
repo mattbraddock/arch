@@ -140,7 +140,7 @@ Install additional programs
 
 Basics:
 ```bash
-pacman -S brightnessctl cliphist conky ffmpeg firefox foot grim mako mousepad qt5-wayland qt5-graphicaleffects qt5-quickcontrols2 rofi slurp swaybg swayidle swaylock thunar waybar wlopm wlr-randr
+pacman -S brightnessctl cliphist conky ffmpeg firefox foot grim mako mousepad qt5-wayland qt5-graphicaleffects qt5-quickcontrols2 rofi slurp swaybg swayidle swaylock thunar wlopm wlr-randr
 ```
 
 Connectivity
@@ -186,6 +186,7 @@ su - USER
 git clone https://aur.archlinux.org/yay.git
 cd yay && makepkg -si
 cd .. && rm -rf yay
+yay -Sy waybar-git
 xdg-user-dirs-update
 mkdir "${HOME}/.npm-packages"
 npm config set prefix "${HOME}/.npm-packages"
