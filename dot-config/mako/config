@@ -1,0 +1,37 @@
+#
+# mako - configuration file
+# See mako(5) man page for more information.
+#
+
+#
+# GLOBAL CONFIGURATION OPTIONS
+#
+
+max-history=3
+
+#
+# BINDING OPTIONS
+#
+# Supported actions: none, dismiss [--no-history], dismiss-all, dismiss-group,
+# invoke-action <action>, invoke-default-action, exec <command>.
+# See BINDING OPTIONS for more information.
+#
+
+on-button-right=dismiss-all
+
+#
+# STYLE OPTIONS
+#
+# font: For more information on Pango font descriptions, see:
+# https://docs.gtk.org/Pango/type_func.FontDescription.from_string.html#description
+# color: See COLORS for more information.
+# directional: See DIRECTIONAL VALUES for more information.
+# format: See FORMAT SPECIFIERS for more information.
+#
+
+anchor=bottom-right
+background-color=#28282880
+border-color=#50505080
+font=IBM Plex Mono 11
+max-visible=3
+width=325
