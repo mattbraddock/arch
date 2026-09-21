@@ -12,6 +12,7 @@
     <focus>
         <raiseOnFocus>yes</raiseOnFocus>
     </focus>
+    <tablet mapToOutput="HDMI-A-1" mouseEmulation="no" />
     <keyboard>
         <keybind key="W-1">
           <action name="GoToDesktop">
@@ -74,6 +75,10 @@
         </keybind>
         <keybind key="W-Left">
           <action name="SnapToEdge" direction="left" />
+        </keybind>
+        <keybind key="W-A-Left">
+          <action name="SnapToEdge" direction="left" />
+          <action name="ResizeTo" width="1550" />
         </keybind>
         <keybind key="W-Up">
           <action name="SnapToEdge" direction="up" />
