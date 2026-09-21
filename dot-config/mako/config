@@ -32,6 +32,7 @@ on-button-right=dismiss-all
 anchor=bottom-right
 background-color=#28282880
 border-color=#50505080
+default-timeout=5
 font=IBM Plex Mono 11
 max-visible=3
 width=325
