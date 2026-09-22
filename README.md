@@ -255,9 +255,9 @@ sudo yay -S azahar-appimage-wayland \
             cemu \
             dolphin-emu \
             fceux \
-            m64py \
             melonds \
             mgba-qt \
+            rmg \
             ryujinx \
             sameboy
 ```
