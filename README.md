@@ -152,7 +152,7 @@ systemctl enable cups.service
 
 Audio/Video
 ```bash
-pacman -S haruna pamixer pavucontrol-qt pulseaudio speech-dispatcher
+pacman -S haruna pamixer pavucontrol-qt pipewire-alsa pipewire-pulse pipewire-v4l2 pipewire-zeroconf speech-dispatcher
 ```
 
 Archiving and file systems
